@@ -1,5 +1,6 @@
 import http from "http";
 import express from "express";
+import { log } from "console";
 
 const PORT = 8080;
 
@@ -19,6 +20,9 @@ app.use(async (_req,res) => {
     res.status(404).json({message: "page not found"});
 })
 
+app.put("/api", async (_req, res) => {
+    res.send("/api put")
+})
 
 app.listen(PORT, () => {
     console.log(`Success: API server start on localhost:${PORT}`);

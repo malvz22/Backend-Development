@@ -1,0 +1,23 @@
+[
+  {
+    "id": null,
+    "createdAt": "2023-12-12T14:20:44.684Z",
+    "name": "Bawank",
+    "nominal": 10000,
+    "category": "dapur"
+  },
+  {
+    "id": 1,
+    "createdAt": "2023-12-12T14:20:57.229Z",
+    "name": "ssad",
+    "nominal": 10000,
+    "category": "dapur"
+  },
+  {
+    "id": 2,
+    "createdAt": "2023-12-12T14:21:12.449Z",
+    "name": "www",
+    "nominal": 10000,
+    "category": "apa"
+  }
+]
